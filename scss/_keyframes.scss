@@ -1,0 +1,17 @@
+@keyframes boxshadow {
+  0%{border-color: orange;}
+  50%{border-color: orangered;}
+  100%{border-color: orange;}
+}
+
+@keyframes boxshadow2 {
+  0%{box-shadow: 5px 5px $box_shadow1;}
+  50%{box-shadow: 5px 5px $box_shadow2;}
+  100%{box-shadow: 5px 5px $box_shadow1;}
+}
+
+@keyframes colorWelcomeTxt {
+  0%{color: orange;}
+  50%{color: orangered;}
+  100%{color: orange;}
+}
